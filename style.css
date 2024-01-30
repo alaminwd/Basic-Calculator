@@ -1,0 +1,30 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000 !important;
+    height: 100vh;
+}
+.row{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.calculate-form{
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.calculate-form label{
+    font-weight: 600;
+    font-size: 16px;
+}
+.form-control:focus {
+  
+    border-color: #000;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+
